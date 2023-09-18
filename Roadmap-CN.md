@@ -48,6 +48,7 @@ Serialize/Deserialize Level     |
 
 ## 0.2.0
 
+- [ ] 支持 `rpc` 注释，支持仅 `channel <NAME> = recv <TYPE> -> send <TYPE> -> end` 这类单点调用
 - [ ] 支持 Range 类型，例子：`int from 0 to 255`
 - [ ] 支持 Regex 字符串类型匹配，例子：`string matches "ID[0-9]+"`
 - [ ] operator `recvs(N) <TYPE> stop by <SESSION TYPE>` : less strict but industrial for induction(stream has an end) type with buffer size `N`.

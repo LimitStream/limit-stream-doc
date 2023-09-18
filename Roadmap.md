@@ -39,6 +39,7 @@ Serialize/Deserialize Level     |
 
 ## 0.2.0
 
+- [ ] `rpc` annotation, support only `channel <NAME> = recv <TYPE> -> send <TYPE> -> end`
 - [ ] type support range type for example `int from 0 to 255`
 - [ ] type support string regex for example `string matches "ID[0-9]+"`
 - [ ] operator `recvs(N) <TYPE> stop by <SESSION TYPE>` : less strict but industrial for induction(stream has an end) type with buffer size `N`.
